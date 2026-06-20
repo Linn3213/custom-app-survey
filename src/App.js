@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [activeNav, setActiveNav] = useState('home');
+  const [, setActiveNav] = useState('home');
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -130,8 +130,8 @@ function App() {
           <div className="footer-links">
             <a href="#top">Hem</a>
             <a href="mailto:hello@essensiadesign.se">Kontakt</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Villkor</a>
+            <a href="#top">Privacy Policy</a>
+            <a href="#top">Villkor</a>
           </div>
           <div className="footer-copyright">
             &copy; 2026 Essensia. Byggd för att du ska kunna bygga något som varar.

@@ -1,6 +1,0 @@
-# Use the latest Anthropic SDK — adaptive thinking, effort, and streaming
-# helpers used here require a recent release.
-anthropic>=0.69
-fastapi>=0.110
-uvicorn[standard]>=0.27
-python-dotenv>=1.0
